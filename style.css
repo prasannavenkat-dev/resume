@@ -1,0 +1,150 @@
+#header {
+  position: relative;
+  z-index: -1;
+  background-color: grey;
+  padding-top: 0.5vw;
+  padding-bottom: 2vw;
+}
+
+h2 {
+  display: inline-block;
+  font-weight: lighter;
+}
+
+.imgdiv {
+  text-align: center;
+}
+.image {
+  border-radius: 50%;
+  border-style: dotted;
+  border-width: 0.5vw;
+
+  border-color: #e0c71b;
+  width: 15vw;
+  height: 15vw;
+}
+
+.bar {
+  height: 10%;
+  padding: 1vw;
+
+  background-color: #cad5db;
+}
+
+.nameBar {
+  background-color: #e0c71b;
+  position: absolute;
+
+  font-size: 3vw;
+  padding: 0.5% 1%;
+  border-radius: 5px;
+
+  font-family: serif;
+  z-index: 2;
+
+  top: 70%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+
+  width: fit-content;
+  height: fit-content;
+}
+
+.contact {
+  text-align: center;
+
+  font-family: sans-serif;
+  padding: 1.5%;
+
+  border-bottom: solid;
+  border-color: grey;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.customIcon {
+  color: #e0c71b;
+  background-color: gray;
+  border-radius: 50%;
+  padding: 2%;
+
+  border-width: thick;
+}
+
+.customIcon1 {
+  color: #e0c71b;
+  background-color: gray;
+  border-radius: 50%;
+  padding: 2% 1.6%;
+
+  border-width: thick;
+}
+
+progress {
+  border: solid;
+  background-color: black;
+  border-width: medium;
+  border-color: grey;
+}
+progress::-webkit-progress-bar {
+  background: #fff;
+}
+progress::-webkit-progress-value {
+  background: #e0c71b;
+}
+
+.paddingleft {
+  padding-left: 6%;
+}
+
+.paddingRight {
+  padding-right: 5%;
+}
+
+.paddingleftSkill {
+  padding-left: 3.5%;
+}
+
+.content {
+  line-height: 1.5;
+  font-family: sans-serif;
+
+  border-color: grey;
+  border-width: medium;
+  height: 1080px;
+  padding: 1%;
+  margin: 2%;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+h2 {
+  font-family: serif;
+}
+
+table {
+  table-layout: fixed;
+  width: 100%;
+}
+
+.contentLeft {
+  width: 50%;
+  height: auto;
+  float: left;
+  border-right: solid;
+  border-width: medium;
+  border-color: grey;
+}
+
+.contentRight {
+  margin-left: 50%;
+
+  padding-left: 2%;
+}
+
+
